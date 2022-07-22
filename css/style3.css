@@ -1,0 +1,92 @@
+*{
+  	font-family: system-ui;
+}
+body{
+	padding:0px;
+	margin: 0px;
+}
+.nav-bar{
+   	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+   	background:#343A40;
+	width: 100%;
+}
+.right-nav{
+   	display: inline-block;
+   	float: right;
+   	padding: 5px;
+}
+.nav-bar span{
+    	padding: 5px 20px;
+    	vertical-align: sub;
+    	color: white;
+}
+.right-nav span{
+    	text-decoration: none;
+    	border-radius: 20px;
+    	display: inline-block;
+}
+.right-nav a{
+    	padding: 7px 20px;
+    	margin-right: 10px;
+    	background: #ff2b2b;
+    	color: white;
+    	text-decoration: none;
+    	border-radius: 5px;
+}
+#spn{
+    	padding: 6px 18px;
+    	text-decoration: none;
+    	border-radius: 20px;
+    	background: #00000036;
+    	display: inline-block;
+    	vertical-align: middle;
+}
+#lot{
+	vertical-align: baseline;
+}
+.clear{ 
+    	clear: both; 
+}
+tr.content {
+	border: 1px solid black;
+}
+.left-nav{
+    	display: contents;
+}
+.left-nav img{
+    	width: 62px;
+}
+
+#customers {
+  	font-family: Arial, Helvetica, sans-serif;
+  	border-collapse: collapse;
+  	width: 100%;
+}
+
+	#customers td, #customers th {
+    	padding: 8px 70px;
+}
+#customers tr:nth-child(even){
+	background-color: #cdcccc;
+}
+#customers tr:hover {
+	background-color: #ddd;
+}
+#customers th {
+  	padding-top: 12px;
+  	padding-bottom: 12px;
+  	text-align: left;
+  	background-color: #343a40;
+  	color: white;
+}
+.content button{
+    	background: red;
+    	color: white;
+    	border: none;
+    	border-radius: 5px;
+    	padding: 8px 15px;
+}
+.content h1{
+	padding: 0px 30px;
+	color: #343A40;
+}
