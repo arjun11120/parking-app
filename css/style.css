@@ -1,22 +1,15 @@
 *{
-
   margin:0;
   padding:0;
-
 }
 
 .container{
-
    	display: flex;
    	padding: 20px 110px;
    	margin-left: 9%;
-
 }
-
 body{
-
   	background-color: #cccccc;
-
 }
 .clear{
 	clear:both;
@@ -96,28 +89,16 @@ body{
     	padding: 10px 0px;
 }   
 .content{
-
    	color: white;
-
     	text-align: center;
-
     	padding: 190px 0px 0px 50px;}
-
 .content span{
-
    	font-size: 20px;
-
 }
-
 .content p{
-
       	padding: 10px;
-
    	font-weight: 600;
-
 }
-
-
 #sn-btn{
     	text-align: center;
     	padding:10px 15px;
