@@ -63,7 +63,8 @@ tr.content {
   	width: 100%;
 }
 
-	#customers td, #customers th {
+#customers td, #customers th {
+	text-align: center;
     	padding: 8px 20px;
 }
 #customers tr:nth-child(even){
@@ -75,7 +76,7 @@ tr.content {
 #customers th {
   	padding-top: 12px;
   	padding-bottom: 12px;
-  	text-align: left;
+  	text-align: center;
   	background-color: #343a40;
   	color: white;
 }
